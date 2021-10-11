@@ -1,0 +1,12 @@
+{
+  "name": "git-webhook-lambda-s3",
+  "version": "1.0.0",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "simple-git": "^2.46.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.2.0",
+    "aws-sdk": "^2.1004.0"
+  }
+}
