@@ -6,8 +6,8 @@ Additionally, the Amazon Linux image used in lambda currently doesn't have Git. 
 
 ## Prerequisite
 The following tools should be installed due to the project dependency.
-[NodeJS](https://nodejs.org/en/download/)
-[Serverless](https://www.serverless.com/)
+* [NodeJS](https://nodejs.org/en/download/)
+* [Serverless](https://www.serverless.com/)
 
 ## Setup
 Here are all the environment variables that need to be defined in the AWS Lambda configuration.
