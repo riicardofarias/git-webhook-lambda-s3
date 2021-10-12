@@ -21,6 +21,7 @@ After fork/clone the repo, install nodejs dependencies.
 ```
 npm install
 ```
+Deploy to AWS
 ```
 serverless deploy --verbose
 ```
