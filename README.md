@@ -2,7 +2,8 @@
 
 git-webhook-lambda-s3 provides a solution by using a [AWS API Gateway](https://aws.amazon.com/pt/api-gateway/) and [Lambda](https://aws.amazon.com/pt/lambda/) to be deployed along with Gitea or any other git server for the Webhook API call integration. This service fetch the code repo from Gitea API and automatically zip and upload the source artifact to a configurable S3 bucket, to enable the integration between the git servers to AWS CodePipeline and AWS CodeBuild.
 
-Additionally, the Amazon Linux image used in lambda currently doesn't have Git. So this layer should be added to the lambda function to have Git available.
+Additionally, the Amazon Linux image used in lambda currently doesn't have Git. So this layer should be added to the lambda function to have Git available:
+arn:aws:lambda:us-east-1:553035198032:layer:git-lambda2:8
 
 ## Prerequisite
 The following tools should be installed due to the project dependency.
