@@ -41,7 +41,7 @@ You need add policy permission on you S3 bucket.
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "example",
+            "Sid": "git-webhook-lambda-s3",
             "Effect": "Allow",
             "Action": "s3:PutObject",
             "Resource": "[YOUR BUCKET/KEYS]"
